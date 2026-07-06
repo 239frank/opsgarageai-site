@@ -28,6 +28,6 @@ if (form) {
     const message = encodeURIComponent(data.get('message') || '');
     const subject = encodeURIComponent('Ops Garage AI build request');
     const body = `Name: ${name}%0AEmail: ${email}%0A%0AWorkflow:%0A${message}`;
-    window.location.href = `mailto:hello@opsgarageai.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:frank@opsgarageai.com?subject=${subject}&body=${body}`;
   });
 }
