@@ -1,0 +1,4 @@
+Contact: mailto:frank@opsgarageai.com
+Preferred-Languages: en
+Canonical: https://opsgarageai.com/.well-known/security.txt
+Expires: 2027-07-06T00:00:00Z
