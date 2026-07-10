@@ -63,6 +63,8 @@ h2 { margin: 0; font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1; letter-spac
 h3 { margin: 0 0 10px; font-size: 1.16rem; letter-spacing: -.02em; }
 .hero-subtitle, .lead { color: var(--muted); font-size: 1.15rem; max-width: 720px; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 14px; margin: 34px 0; }
+.phone-cta { margin: -16px 0 28px; color: var(--muted); }
+.phone-cta a, .contact-phone a { color: #047a70; font-weight: 900; text-decoration: underline; text-underline-offset: 3px; }
 .trust-row { display: flex; flex-wrap: wrap; gap: 10px; color: var(--muted); }
 .trust-row span { border: 1px solid var(--line); border-radius: 999px; padding: 8px 12px; background: rgba(255,255,255,.04); }
 .hero-card { min-width: 0; }
@@ -94,6 +96,8 @@ pre { margin: 0; padding: 26px; white-space: pre-wrap; color: #c8ffe9; font: 600
 .price { font-size: 2rem; margin: 12px 0; font-weight: 900; color: #047a70; }
 .pricing-card ul { padding-left: 20px; margin: 18px 0 24px; }
 .contact-grid { display: grid; grid-template-columns: .9fr 1fr; gap: 42px; align-items: start; }
+.contact-phone { margin-top: 26px; color: var(--ink-muted); font-size: 1.05rem; line-height: 1.65; }
+.contact-phone a { font-size: 1.45rem; text-decoration: none; }
 .contact-form { display: grid; gap: 16px; background: white; border-radius: var(--radius); padding: 24px; box-shadow: 0 14px 34px rgba(16,24,39,.08); }
 label { color: var(--ink); font-weight: 800; display: grid; gap: 7px; }
 input, textarea { width: 100%; border: 1px solid rgba(16,24,39,.18); border-radius: 14px; padding: 13px 14px; font: inherit; color: var(--ink); background: #fff; }
@@ -102,6 +106,7 @@ input:focus, textarea:focus { outline: 3px solid rgba(94,234,212,.35); border-co
 .site-footer { padding: 28px 0; border-top: 1px solid var(--line); color: var(--muted); }
 .footer-grid { display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
 .footer-grid p { margin: 0; }
+.mobile-call-button { display: none; }
 
 @media (max-width: 860px) {
   .nav-toggle { display: block; }
@@ -110,4 +115,5 @@ input:focus, textarea:focus { outline: 3px solid rgba(94,234,212,.35); border-co
   .hero-grid, .split, .pricing-grid, .contact-grid { grid-template-columns: 1fr; }
   .cards-3, .feature-grid { grid-template-columns: 1fr; }
   .hero { padding-top: 58px; }
+  .mobile-call-button { display: block; position: fixed; z-index: 20; left: 16px; right: 16px; bottom: 16px; padding: 15px 20px; border-radius: 999px; background: var(--accent); color: #06201b; text-align: center; font-weight: 900; box-shadow: 0 12px 30px rgba(0,0,0,.24); }
 }
