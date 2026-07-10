@@ -8,9 +8,9 @@
   --card-2: rgba(255,255,255,.09);
   --accent: #5eead4;
   --accent-2: #93c5fd;
-  --paper: #f6f8fb;
-  --ink: #101827;
-  --ink-muted: #4b5870;
+  --paper: #0d1727;
+  --ink: #eef5ff;
+  --ink-muted: #b6c4d7;
   --shadow: 0 24px 80px rgba(0,0,0,.25);
   --radius: 22px;
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -77,18 +77,18 @@ h3 { margin: 0 0 10px; font-size: 1.16rem; letter-spacing: -.02em; }
 pre { margin: 0; padding: 26px; white-space: pre-wrap; color: #c8ffe9; font: 600 .95rem/1.7 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
 
 .section { padding: 88px 0; background: var(--paper); color: var(--ink); }
-.section-muted { background: #eaf0f8; }
+.section-muted { background: #122137; }
 .section-dark { background: var(--bg-2); color: var(--text); }
 .split { display: grid; grid-template-columns: .8fr 1fr; gap: 44px; align-items: start; }
-.section .eyebrow { color: #047a70; }
+.section .eyebrow { color: var(--accent); }
 .section-dark .eyebrow { color: var(--accent); }
 .section .lead { color: var(--ink-muted); margin: 0; }
-.section .button-secondary { color: var(--ink); border-color: rgba(16,24,39,.18); }
+.section .button-secondary { color: var(--text); border-color: var(--line); }
 .section-dark .lead { color: var(--muted); }
 .section-heading { margin-bottom: 34px; max-width: 760px; }
 .cards { display: grid; gap: 18px; }
 .cards-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.card, .feature-grid article, .pricing-card { background: white; border: 1px solid rgba(16,24,39,.1); border-radius: var(--radius); padding: 24px; box-shadow: 0 14px 34px rgba(16,24,39,.06); }
+.card, .feature-grid article, .pricing-card { background: #16263d; border: 1px solid rgba(255,255,255,.1); border-radius: var(--radius); padding: 24px; box-shadow: 0 14px 34px rgba(0,0,0,.18); }
 .card p, .feature-grid p, .pricing-card li { color: var(--ink-muted); }
 .card p { margin-bottom: 0; }
 .timeline { list-style: none; margin: 0; padding: 0; display: grid; gap: 16px; }
@@ -97,11 +97,11 @@ pre { margin: 0; padding: 26px; white-space: pre-wrap; color: #c8ffe9; font: 600
 .timeline p { color: var(--muted); margin: 0; }
 .feature-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
 .pricing-grid { display: grid; grid-template-columns: 1fr 420px; gap: 42px; align-items: center; }
-.price { font-size: 2rem; margin: 12px 0; font-weight: 900; color: #047a70; }
+.price { font-size: 2rem; margin: 12px 0; font-weight: 900; color: var(--accent); }
 .pricing-card ul { padding-left: 20px; margin: 18px 0 24px; }
 .contact-grid { display: grid; grid-template-columns: .9fr 1fr; gap: 42px; align-items: start; }
 .contact-phone { margin-top: 26px; color: var(--ink-muted); font-size: 1.05rem; line-height: 1.65; }
-.contact-phone a { font-size: 1.45rem; text-decoration: none; }
+.contact-phone a { font-size: 1.45rem; text-decoration: none; color: var(--accent); }
 .contact-form-link { margin-top: 22px; }
 .contact-choice { display: grid; gap: 14px; align-content: start; }
 .contact-choice p { margin: 0; color: var(--ink-muted); }
@@ -116,11 +116,11 @@ input:focus, textarea:focus { outline: 3px solid rgba(94,234,212,.35); border-co
 .mobile-call-button { display: none; }
 .intake-main { min-height: calc(100vh - 150px); background: radial-gradient(circle at 20% 10%, rgba(94,234,212,.15), transparent 34%), var(--paper); color: var(--ink); padding: 72px 0 88px; }
 .intake-intro { max-width: 760px; text-align: center; }
-.intake-intro .eyebrow { color: #047a70; }
+.intake-intro .eyebrow { color: var(--accent); }
 .intake-intro .lead { margin: 22px auto 0; color: var(--ink-muted); }
 .intake-call { margin: 22px 0 0; color: var(--ink-muted); }
-.intake-call a { color: #047a70; font-weight: 900; text-decoration: underline; }
-.intake-form-wrap { max-width: 820px; margin-top: 36px; padding: 16px; background: #fff; border: 1px solid rgba(16,24,39,.1); border-radius: var(--radius); box-shadow: 0 18px 48px rgba(16,24,39,.1); }
+.intake-call a { color: var(--accent); font-weight: 900; text-decoration: underline; }
+.intake-form-wrap { max-width: 820px; margin-top: 36px; padding: 16px; background: #16263d; border: 1px solid rgba(255,255,255,.1); border-radius: var(--radius); box-shadow: 0 18px 48px rgba(0,0,0,.22); }
 .intake-form-wrap iframe { display: block; width: 100%; min-height: 1180px; border: 0; border-radius: 14px; background: #fff; }
 
 @media (max-width: 860px) {
