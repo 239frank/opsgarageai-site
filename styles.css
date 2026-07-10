@@ -83,6 +83,7 @@ pre { margin: 0; padding: 26px; white-space: pre-wrap; color: #c8ffe9; font: 600
 .section .eyebrow { color: #047a70; }
 .section-dark .eyebrow { color: var(--accent); }
 .section .lead { color: var(--ink-muted); margin: 0; }
+.section .button-secondary { color: var(--ink); border-color: rgba(16,24,39,.18); }
 .section-dark .lead { color: var(--muted); }
 .section-heading { margin-bottom: 34px; max-width: 760px; }
 .cards { display: grid; gap: 18px; }
@@ -101,6 +102,9 @@ pre { margin: 0; padding: 26px; white-space: pre-wrap; color: #c8ffe9; font: 600
 .contact-grid { display: grid; grid-template-columns: .9fr 1fr; gap: 42px; align-items: start; }
 .contact-phone { margin-top: 26px; color: var(--ink-muted); font-size: 1.05rem; line-height: 1.65; }
 .contact-phone a { font-size: 1.45rem; text-decoration: none; }
+.contact-form-link { margin-top: 22px; }
+.contact-choice { display: grid; gap: 14px; align-content: start; }
+.contact-choice p { margin: 0; color: var(--ink-muted); }
 .contact-form { display: grid; gap: 16px; background: white; border-radius: var(--radius); padding: 24px; box-shadow: 0 14px 34px rgba(16,24,39,.08); }
 label { color: var(--ink); font-weight: 800; display: grid; gap: 7px; }
 input, textarea { width: 100%; border: 1px solid rgba(16,24,39,.18); border-radius: 14px; padding: 13px 14px; font: inherit; color: var(--ink); background: #fff; }
