@@ -34,7 +34,7 @@ img { max-width: 100%; display: block; }
 .phone-banner a { color: #06201b; font-weight: 950; text-decoration: underline; text-underline-offset: 3px; }
 
 .site-header {
-  position: sticky;
+  position: relative;
   top: 0;
   z-index: 50;
   background: rgba(8,17,31,.82);
@@ -44,7 +44,7 @@ img { max-width: 100%; display: block; }
 .nav { height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
 .brand { display: flex; align-items: center; gap: 12px; font-weight: 800; letter-spacing: -.02em; }
 .brand-logo { width: 42px; height: 42px; border-radius: 12px; }
-.brand-lockup { width: 190px; height: 48px; object-fit: contain; object-position: left center; }
+.brand-lockup { width: 230px; height: 54px; object-fit: cover; object-position: center; border-radius: 8px; }
 .brand-text { font-size: 1.05rem; }
 .nav-menu { display: flex; align-items: center; gap: 22px; color: var(--muted); font-size: .96rem; }
 .nav-menu a:hover { color: var(--text); }
@@ -145,7 +145,7 @@ input:focus, textarea:focus { outline: 3px solid rgba(94,234,212,.35); border-co
   .intake-main { padding-top: 48px; }
   .intake-form-wrap { width: min(100% - 24px, 820px); padding: 8px; }
   .intake-form-wrap iframe { min-height: 1320px; }
-  .brand-lockup { width: 165px; height: 42px; }
+  .brand-lockup { width: 190px; height: 44px; }
   .contact-option { align-items: stretch; flex-direction: column; }
   .contact-option .button { width: 100%; }
 }
