@@ -13,3 +13,8 @@ Thumbs.db
 # Editor/system files
 .vscode/
 .idea/
+.env
+.env.*
+!.env.example
+.wrangler/
+node_modules/
