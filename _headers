@@ -11,7 +11,7 @@
   X-Download-Options: noopen
   X-DNS-Prefetch-Control: off
   X-XSS-Protection: 0
-  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; media-src 'none'; frame-src 'none'; child-src 'none'; worker-src 'none'; manifest-src 'self'; form-action 'self' mailto:; frame-ancestors 'none'; upgrade-insecure-requests; require-trusted-types-for 'script'
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; media-src 'none'; frame-src https://docs.google.com https://forms.google.com; child-src 'none'; worker-src 'none'; manifest-src 'self'; form-action 'self' mailto:; frame-ancestors 'none'; upgrade-insecure-requests; require-trusted-types-for 'script'
 
 /
   Cache-Control: no-cache, must-revalidate
