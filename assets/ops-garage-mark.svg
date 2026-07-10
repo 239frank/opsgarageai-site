@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Ops Garage AI mark</title>
+  <desc id="desc">A turquoise garage door with a dark O and G monogram</desc>
+  <defs>
+    <linearGradient id="paint" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#5eead4"/><stop offset="1" stop-color="#93c5fd"/>
+    </linearGradient>
+  </defs>
+  <rect x="6" y="6" width="116" height="116" rx="28" fill="url(#paint)"/>
+  <path d="M28 43h72M28 64h72M28 85h72" fill="none" stroke="#08111f" stroke-width="7" stroke-linecap="round" opacity=".25"/>
+  <path d="M38 91V37h21c15 0 25 10 25 27s-10 27-25 27H38Zm15-14h6c7 0 11-4 11-13s-4-13-11-13h-6v26Z" fill="#08111f"/>
+</svg>

@@ -43,7 +43,7 @@ img { max-width: 100%; display: block; }
 }
 .nav { height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
 .brand { display: flex; align-items: center; gap: 12px; font-weight: 800; letter-spacing: -.02em; }
-.brand-mark { display: grid; place-items: center; width: 42px; height: 42px; border-radius: 12px; background: linear-gradient(135deg, var(--accent), var(--accent-2)); color: #06111e; font-weight: 900; }
+.brand-logo { width: 42px; height: 42px; border-radius: 12px; }
 .brand-text { font-size: 1.05rem; }
 .nav-menu { display: flex; align-items: center; gap: 22px; color: var(--muted); font-size: .96rem; }
 .nav-menu a:hover { color: var(--text); }
@@ -114,6 +114,14 @@ input:focus, textarea:focus { outline: 3px solid rgba(94,234,212,.35); border-co
 .footer-grid { display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
 .footer-grid p { margin: 0; }
 .mobile-call-button { display: none; }
+.intake-main { min-height: calc(100vh - 150px); background: radial-gradient(circle at 20% 10%, rgba(94,234,212,.15), transparent 34%), var(--paper); color: var(--ink); padding: 72px 0 88px; }
+.intake-intro { max-width: 760px; text-align: center; }
+.intake-intro .eyebrow { color: #047a70; }
+.intake-intro .lead { margin: 22px auto 0; color: var(--ink-muted); }
+.intake-call { margin: 22px 0 0; color: var(--ink-muted); }
+.intake-call a { color: #047a70; font-weight: 900; text-decoration: underline; }
+.intake-form-wrap { max-width: 820px; margin-top: 36px; padding: 16px; background: #fff; border: 1px solid rgba(16,24,39,.1); border-radius: var(--radius); box-shadow: 0 18px 48px rgba(16,24,39,.1); }
+.intake-form-wrap iframe { display: block; width: 100%; min-height: 1180px; border: 0; border-radius: 14px; background: #fff; }
 
 @media (max-width: 860px) {
   .phone-banner-inner { min-height: 42px; padding: 8px 20px; flex-wrap: wrap; line-height: 1.25; gap: 4px 8px; }
@@ -124,4 +132,7 @@ input:focus, textarea:focus { outline: 3px solid rgba(94,234,212,.35); border-co
   .cards-3, .feature-grid { grid-template-columns: 1fr; }
   .hero { padding-top: 58px; }
   .mobile-call-button { display: block; position: fixed; z-index: 20; left: 16px; right: 16px; bottom: 16px; padding: 15px 20px; border-radius: 999px; background: var(--accent); color: #06201b; text-align: center; font-weight: 900; box-shadow: 0 12px 30px rgba(0,0,0,.24); }
+  .intake-main { padding-top: 48px; }
+  .intake-form-wrap { width: min(100% - 24px, 820px); padding: 8px; }
+  .intake-form-wrap iframe { min-height: 1320px; }
 }
