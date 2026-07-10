@@ -29,6 +29,9 @@ img { max-width: 100%; display: block; }
 .container { width: min(1120px, calc(100% - 40px)); margin: 0 auto; }
 .skip-link { position: absolute; left: -999px; top: 12px; background: var(--accent); color: #06201b; padding: 10px 14px; border-radius: 999px; z-index: 10; }
 .skip-link:focus { left: 12px; }
+.phone-banner { background: var(--accent); color: #06201b; font-size: .9rem; font-weight: 800; }
+.phone-banner-inner { min-height: 38px; display: flex; align-items: center; justify-content: center; gap: 10px; text-align: center; }
+.phone-banner a { color: #06201b; font-weight: 950; text-decoration: underline; text-underline-offset: 3px; }
 
 .site-header {
   position: sticky;
@@ -109,6 +112,7 @@ input:focus, textarea:focus { outline: 3px solid rgba(94,234,212,.35); border-co
 .mobile-call-button { display: none; }
 
 @media (max-width: 860px) {
+  .phone-banner-inner { min-height: 42px; padding: 8px 20px; flex-wrap: wrap; line-height: 1.25; gap: 4px 8px; }
   .nav-toggle { display: block; }
   .nav-menu { position: absolute; left: 20px; right: 20px; top: 76px; display: none; flex-direction: column; align-items: stretch; background: #0b1728; border: 1px solid var(--line); border-radius: 18px; padding: 16px; box-shadow: var(--shadow); }
   .nav-menu.open { display: flex; }
