@@ -149,3 +149,54 @@ input:focus, textarea:focus { outline: 3px solid rgba(94,234,212,.35); border-co
   .contact-option { align-items: stretch; flex-direction: column; }
   .contact-option .button { width: 100%; }
 }
+
+
+.legal-main {
+  background: var(--paper);
+  color: var(--ink);
+  padding: 72px 0 88px;
+}
+.legal-document {
+  width: min(860px, calc(100% - 40px));
+}
+.legal-document h1 {
+  font-size: clamp(2.6rem, 6vw, 4.5rem);
+  letter-spacing: -.055em;
+  line-height: 1;
+}
+.legal-document > p {
+  color: var(--ink-muted);
+  font-size: 1.08rem;
+}
+.legal-effective {
+  margin: 14px 0 36px;
+  color: var(--accent) !important;
+  font-size: .92rem !important;
+  font-weight: 800;
+}
+.legal-document section {
+  margin-top: 36px;
+  padding-top: 30px;
+  border-top: 1px solid var(--line);
+}
+.legal-document h2 {
+  font-size: clamp(1.45rem, 3vw, 2rem);
+  letter-spacing: -.035em;
+}
+.legal-document section p,
+.legal-document li {
+  color: var(--ink-muted);
+}
+.legal-document ul {
+  padding-left: 22px;
+}
+.legal-document a,
+.site-footer a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.site-footer a:hover,
+.legal-document a:hover {
+  color: #7ff5e2;
+}
