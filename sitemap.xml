@@ -13,6 +13,10 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://opsgarageai.com/ai-workflow-automation/</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://opsgarageai.com/privacy/</loc>
     <priority>0.3</priority>
   </url>
