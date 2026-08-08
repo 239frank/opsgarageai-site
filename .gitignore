@@ -18,3 +18,7 @@ Thumbs.db
 !.env.example
 .wrangler/
 node_modules/
+
+# Python helper/test caches
+__pycache__/
+*.py[cod]
